@@ -1,0 +1,23 @@
+.header {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fd810d;
+  color: white;
+  font-size: larger;
+  background-image: url("../../assets/coursesphoto/headerbooks.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-y: 15%;
+  background-position-x: 90%;
+}
+body {
+  background-color: #fdf0e6;
+}
+img {
+  max-width: 35%;
+}
+a {
+  color: #fdf0e6;
+}

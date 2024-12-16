@@ -1,0 +1,10 @@
+.payment_style{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.summary p{
+  font-size: 15px;
+  margin: 0;
+}

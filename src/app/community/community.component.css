@@ -1,0 +1,118 @@
+h2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fc800a;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin: 20px auto;
+}
+h4 {
+  color:#198754;
+  font-size: 24px;
+  display: block;
+  margin: 10px;
+  font-style: bold;
+  text-align: center;
+}
+div {
+  text-align: center;
+
+}
+.spacing {
+  margin-top: 60px;
+}
+
+
+.photo{
+  position: relative;
+  left: 450px;
+}
+
+.comment-Card{
+  width: 450px;
+}
+.comment-Card img{
+  width: 450px;
+  border-radius: 15px 15px 0px 0px;
+  height: 350px;
+}
+.text{
+  font-size: 16px;
+}
+.card-info{
+  padding: 10px;
+}
+.card-info div p{
+  color: #FC800A;
+}
+
+.card-scale:hover{
+  box-shadow: #eee 0px 2px 2px 0px;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all ease 0.5s;
+}
+.links_sytyle{
+  cursor: pointer;
+  color: #FC800A;
+}
+
+
+.carousel-inner {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f1c40f;
+  padding-top: 20px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.carousel-indicators [data-bs-target] {
+  background-color: #f1c40f;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #f1c40f;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+.carousel-item img {
+  width: 80%;
+  height: 400px;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .comment-Card,
+  .comment-Card img{
+    width: 320px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  h4{
+    font-size: 16px;
+  }
+}
